@@ -1,4 +1,5 @@
 require_relative 'message_filter'
+require 'rspec/its'
 
 describe MessageFilter do
 	shared_examples 'MessageFilter with argument "foo"' do
